@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    <!-- <meta http-equiv="Content-Security-Policy"
+        content="
+            default-src 'self'
+                http://js.arcgis.com
+                http://static.arcgis.com
+                http://services.arcgisonline.com
+                http://server.arcgisonline.com;
+            font-src
+                'self'
+                http://js.arcgis.com
+                data:;
+            img-src 'self'
+                http://js.arcgis.com
+                http://services.arcgisonline.com
+                http://server.arcgisonline.com
+                data:;
+            style-src 'self' http://js.arcgis.com 'unsafe-inline';
+            script-src 'self' http://js.arcgis.com 'unsafe-eval'"> -->
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="lib/arcgis-js-api/css/esri.css">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- <script>window.dojoConfig = { packages: [{ name: 'local', location: '/lib' }] };</script> -->
+
+    <script defer type="text/javascript" src="//js.arcgis.com/3.16compact/"></script>
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- <script src="lib/arcgis-js-api/jspai.js"></script> -->
+    <script src="lib/angular-esri-map/dist/angular-esri-map.js"></script>
+
+    <!-- <link rel="stylesheet" href="http://js.arcgis.com/3.9/js/esri/css/esri.css" /> -->
+    <!-- <script src="http://js.arcgis.com/3.15"></script> -->
+    <!-- <script type="text/javascript" src="http://js.arcgis.com/3.15compact"></script> -->
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/ionic-multiple-views.js"></script>
+  </head>
+
+  <body ng-app="starter">
+    <ion-nav-view></ion-nav-view>
+  </body>
+</html>

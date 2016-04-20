@@ -1,0 +1,21 @@
+<ion-view view-title="Map View">
+    <ion-content style="height: 100%;">
+      <esri-map id="map"
+        map-options="map.options"
+        style="height: 100%"
+        click="mapClick"
+        load="mapLoaded">
+
+        <!-- <esri-feature-layer
+          title="Water Distribution"
+          url="//s096v065.miamidade.gov/ArcGIS/rest/services/Water/MapServer/71">
+        </esri-feature-layer>
+        <esri-feature-layer
+          title="Valves"
+          url="//s096v065.miamidade.gov/ArcGIS/rest/services/Water/MapServer/64"
+          click="layerClick">
+        </esri-feature-layer> -->
+      </esri-map>
+    </ion-content>
+    <multiple-views-support width="67%" />
+</ion-view>
